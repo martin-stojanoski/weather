@@ -6,14 +6,7 @@ This is a simple weather info app that uses the OpenWeatherMap API to get the we
 
 ## Project setup
 
-Clone the repository by running
+The app can be installed and run with
 ```
-git clone git@github.com:martin-stojanoski/weather.git
-```
-
-Using docker, build an app image and run it
-```
-cd weather
-docker build -t weather .
-docker run weather
+git clone git@github.com:martin-stojanoski/weather.git && docker build -t weather-app weather && docker run weather-app
 ```
